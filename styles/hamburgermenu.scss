@@ -100,8 +100,14 @@ label {
     }
 }
 
-@media screen and (max-width:750px) {
-    .hamburger-menu {
+@media screen and (max-width:2000px) {
+    label{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    label{
         display: block;
     }
 }
